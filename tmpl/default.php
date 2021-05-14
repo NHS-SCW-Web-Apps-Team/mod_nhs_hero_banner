@@ -33,7 +33,7 @@ echo $herotype;
 </section>
 <?php elseif($herotype == "2") : ?>
 <section class="nhsuk-hero nhsuk-hero--image nhsuk-hero--image-description" style="background-image: url('/<?php echo $hero_image; ?>');">
-    <div class="nhsuk-hero__overlay nhsuk-u-margin-bottom-6">
+    <div class="nhsuk-hero__overlay">
         <div class="nhsuk-width-container">
             <div class="nhsuk-grid-row">
                 <div class="nhsuk-grid-column-two-thirds">

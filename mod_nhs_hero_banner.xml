@@ -43,14 +43,14 @@
 
 			<fieldset name="image" label="MOD_IMAGE" description="MOD_IMAGE_FIELDSET_DESCRIPTION">
 				<field type="media" label="MOD_HERO_IMAGE" name="hero_image" description="MOD_THE_IMAGE_YOU_WANT_TO_USE_AS" directory=""/>
-				<field type="text" label="MOD_ALT_TEXT" name="alt_text" description="MOD_ALT_TEXT_DESCRIPTION" default="" class="" size="32" maxlength="32" filter=""/>
+				<field type="text" label="MOD_ALT_TEXT" name="alt_text" description="MOD_ALT_TEXT_DESCRIPTION" default="" class="" size="32" maxlength="100" filter=""/>
 			</fieldset>
 
 			<fieldset name="title" label="MOD_TITLE" description="MOD_TITLE_FIELDSET_DESCRIPTION">
 
-				<field type="text" label="MOD_TITLE_LABEL" name="title" description="MOD_TITLE_DESCRIPTION" default="" class="" size="32" maxlength="32" filter=""/>
+				<field type="text" label="MOD_TITLE_LABEL" name="title" description="MOD_TITLE_DESCRIPTION" default="" class="" size="32" maxlength="200" filter=""/>
 
-				<field type="text" label="MOD_SUBTITLE" name="subtitle" description="MOD_SUBTITLE_DESCRIPTION" default="" class="" size="32" maxlength="32" filter=""/>
+				<field type="text" label="MOD_SUBTITLE" name="subtitle" description="MOD_SUBTITLE_DESCRIPTION" default="" class="" size="32" maxlength="200" filter=""/>
 
 				<field type="color" label="MOD_COLOR" name="color" description="MOD_COLOR_DESCRIPTION" default=""/>
 
